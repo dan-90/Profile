@@ -1,10 +1,10 @@
 /* Pick a nice background-color, font-family, color, font-size and line-height for the */
 body {
-  background-color: FFFFFF;
-  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(https://i.pinimg.com/originals/36/dc/b6/36dcb68c8b3a4d7f086b18eb66bf3863.jpg);
+  background-size: cover;
+  font-family: cursive;
   color: 0D1F2D;
   font-size: 15px;
-  line-height: ;
   margin: 15px;
 }
 .container{
@@ -12,17 +12,20 @@ body {
     margin: 0 auto;
 }
 .card-white {
-  background-color: white;
+  background-color: rgba(146, 117, 117, 0.692);
   padding: 50px;
   box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
   border-radius: 25px;
   margin: 40px auto;
   text-align: center;
 }
-h1 {
-  font-family:'Times New Roman', Times, serif;
-  color: 7F7F7F;
-  font-size: 40px;
+  h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: 7F7F7F;
+    font-size: 40px;
+    padding: 0px;
+    margin-top: -35px;
+    margin-bottom: 15px;
 }
 h2 {
   font-family:'Times New Roman', Times, serif;
@@ -34,11 +37,35 @@ h2 {
   border-radius: 25%;
   width: 130px;
   height: 137px;
-  /* box-shadow: rgb(110, 101, 101) -5px 4px; */
 }
-.list-inline i {
+.btn-outline-primary {
+  margin-top: 15px;
+  color: #0d6efd;
+  border-color: #0d6efd;
+  padding: 10px;
+}
+.btn-outline-primary:hover {
+  background-color: #ff0000;
+}
+.list-inline {
   font-size: 50px;
   color: 533A7B;
+  padding-top: 5px;
+  padding-inline: 40px;
+}
+#lewagon {
+  color: #9e049e;
+  text-decoration: none;
+}
+#lewagon:hover {
+  color: #ff0000;
+}
+.fab {
+  font-family: "Font Awesome 5 Brands";
+  padding-inline: 34px;
+}
+.fab:hover {
+  color: #ff0000;
 }
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
